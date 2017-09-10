@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/icon_creature"
+            android:id="@+id/nav_creatures"
+            android:title="Существа" />
+        <item
+            android:icon="@drawable/icon_ingredient"
+            android:id="@+id/nav_ingredients"
+            android:title="Ингредиенты" />
+        <item
+            android:icon="@drawable/icon_item"
+            android:id="@+id/nav_items"
+            android:title="Предметы" />
+        <item
+            android:icon="@drawable/icon_mutagen"
+            android:id="@+id/nav_mutagens"
+            android:title="Мутагены" />
+    </group>
+
+</menu>

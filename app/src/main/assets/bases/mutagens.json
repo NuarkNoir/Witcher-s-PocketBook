@@ -1,0 +1,941 @@
+[{
+	"ID": 37,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Alghoul mutagen",
+	"Effect": "Attack power +5%",
+	"Obtain": "Alghouls",
+	"Image": "journal_alghoulmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Alghouls",
+		"ImageCreature": "journal_alghouls.png",
+		"TypeI": "Creatures",
+		"ID": 61
+	}]
+}, {
+	"ID": 19,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Ancient Leshen Mutagen",
+	"Effect": "Sign intensity +5%",
+	"Obtain": "Kernun\nWoodland Spirit\nAncient leshen",
+	"Image": "journal_ancientleshenmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Woodland Spirit",
+		"ImageCreature": "journal_woodlandspirit.png",
+		"TypeI": "Creatures",
+		"ID": 101
+	}],
+	"Used": [{
+		"Used": "Ancient Leshen Decoction",
+		"ImageUsed": "journal_ancientleshendecoction.png",
+		"TypeI": "Items",
+		"ID": 102
+	}]
+}, {
+	"ID": 35,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Arachas Mutagen",
+	"Effect": "Vitality +50",
+	"Obtain": "Harrisi\nArachasae",
+	"Image": "journal_arachasmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Harrisi",
+		"ImageCreature": "journal_harrisi.png",
+		"TypeI": "Creatures",
+		"ID": 56
+	}],
+	"Used": [{
+		"Used": "Arachas Decoction",
+		"ImageUsed": "journal_arachasdecoction.png",
+		"TypeI": "Items",
+		"ID": 103
+	}]
+}, {
+	"ID": 14,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Archgriffin Mutagen",
+	"Effect": "Attack power +5%",
+	"Obtain": "Opinicus\nArchgriffin",
+	"Image": "journal_archgriffinmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Opinicus",
+		"ImageCreature": "journal_opinicus.png",
+		"TypeI": "Creatures",
+		"ID": 45
+	}],
+	"Used": [{
+		"Used": "Archgriffin Decoction",
+		"ImageUsed": "journal_archgriffindecoction.png",
+		"TypeI": "Items",
+		"ID": 104
+	}]
+}, {
+	"ID": 18,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Basilisk Mutagen",
+	"Effect": "Sign intensity +5%",
+	"Obtain": "Basilisk",
+	"Image": "journal_basiliskmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Basilisk",
+		"ImageCreature": "journal_basilisk.png",
+		"TypeI": "Creatures",
+		"ID": 17
+	}],
+	"Used": [{
+		"Used": "Basilisk Decoction",
+		"ImageUsed": "journal_basiliskdecoction.png",
+		"TypeI": "Items",
+		"ID": 105
+	}]
+}, {
+	"ID": 2,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Blue Mutagen",
+	"Effect": "Sign intensity +7%",
+	"Obtain": "Combine three lesser blue mutagens",
+	"Image": "journal_bluemutagen.png",
+	"Category": "Common",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Bruxae",
+		"ImageCreature": "journal_bruxae.png",
+		"TypeI": "Creatures",
+		"ID": 121
+	}, {
+		"Variations": "Alp",
+		"ImageCreature": "journal_alp.png",
+		"TypeI": "Creatures",
+		"ID": 126
+	}]
+}, {
+	"ID": 32,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Chort Mutagen",
+	"Effect": "Sign intensity +5%",
+	"Obtain": "Howler\nChort",
+	"Image": "journal_chortmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Chort",
+		"ImageCreature": "journal_chort.png",
+		"TypeI": "Creatures",
+		"ID": 83
+	}, {
+		"Variations": "Howler the Chort",
+		"ImageCreature": "journal_howlerthechort.png",
+		"TypeI": "Creatures",
+		"ID": 89
+	}],
+	"Used": [{
+		"Used": "Chort Decoction",
+		"ImageUsed": "journal_chortdecoction.png",
+		"TypeI": "Items",
+		"ID": 106
+	}]
+}, {
+	"ID": 34,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Cockatrice Mutagen",
+	"Effect": "Sign intensity +5%",
+	"Obtain": "Defeat the Cockatrice",
+	"Image": "journal_cockatricemutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Used": [{
+		"Used": "Cockatrice Decoctionc",
+		"ImageUsed": "journal_cockatricedecoctionc.png",
+		"TypeI": "Items",
+		"ID": 107
+	}]
+}, {
+	"ID": 28,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Doppler Mutagen",
+	"Effect": "Attack power +5%",
+	"Obtain": "Defeat the Doppler",
+	"Image": "journal_dopplermutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Imp",
+		"ImageCreature": "journal_imp.png",
+		"TypeI": "Creatures",
+		"ID": 132
+	}],
+	"Used": [{
+		"Used": "Doppler Decoction",
+		"ImageUsed": "journal_dopplerdecoction.png",
+		"TypeI": "Items",
+		"ID": 108
+	}]
+}, {
+	"ID": 21,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Earth Elemental Mutagen",
+	"Effect": "Sign intensity +5%",
+	"Obtain": "Defeat the Earth Elemental",
+	"Image": "journal_earthelementalmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Earth Elemental",
+		"ImageCreature": "journal_earthelemental.png",
+		"TypeI": "Creatures",
+		"ID": 31
+	}, {
+		"Variations": "Therazane",
+		"ImageCreature": "journal_therazane.png",
+		"TypeI": "Creatures",
+		"ID": 36
+	}],
+	"Used": [{
+		"Used": "Earth Elemental Decoction",
+		"ImageUsed": "journal_earthelementaldecoction.png",
+		"TypeI": "Items",
+		"ID": 109
+	}]
+}, {
+	"ID": 20,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Ekhidna Mutagen",
+	"Effect": "Sign intensity +5%",
+	"Obtain": "Defeat the Ekhidna",
+	"Image": "journal_ekhidnamutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Melusine",
+		"ImageCreature": "journal_melusine.png",
+		"TypeI": "Creatures",
+		"ID": 42
+	}],
+	"Used": [{
+		"Used": "Ekhidna Decoction",
+		"ImageUsed": "journal_ekhidnadecoction.png",
+		"TypeI": "Items",
+		"ID": 110
+	}]
+}, {
+	"ID": 33,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Ekimmara Mutagen",
+	"Effect": "Vitality +50",
+	"Obtain": "Defeat the Ekimmara",
+	"Image": "journal_ekimmaramutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Ekimmara",
+		"ImageCreature": "journal_ekimmara.png",
+		"TypeI": "Creatures",
+		"ID": 118
+	}, {
+		"Variations": "Sarasti the Ekimmara",
+		"ImageCreature": "journal_sarastitheekimmara.png",
+		"TypeI": "Creatures",
+		"ID": 120
+	}],
+	"Used": [{
+		"Used": "Ekimmara Decoction",
+		"ImageUsed": "journal_ekimmaradecoction.png",
+		"TypeI": "Items",
+		"ID": 111
+	}]
+}, {
+	"ID": 31,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Fiend Mutagen",
+	"Effect": "Vitality +50",
+	"Obtain": "Defeat the Fiend",
+	"Image": "journal_fiendmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Fiends",
+		"ImageCreature": "journal_fiends.png",
+		"TypeI": "Creatures",
+		"ID": 84
+	}, {
+		"Variations": "Morvudd the Fiend",
+		"ImageCreature": "journal_morvuddthefiend.png",
+		"TypeI": "Creatures",
+		"ID": 90
+	}],
+	"Used": [{
+		"Used": "Fiend Decoction",
+		"ImageUsed": "journal_fienddecoction.png",
+		"TypeI": "Items",
+		"ID": 112
+	}]
+}, {
+	"ID": 25,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Foglet Mutagen",
+	"Effect": "Sign intensity +5%",
+	"Obtain": "Defeat the Foglet",
+	"Image": "journal_fogletmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Ignis Fatuus the Foglet",
+		"ImageCreature": "journal_ignisfatuusthefoglet.png",
+		"TypeI": "Creatures",
+		"ID": 68
+	}, {
+		"Variations": "Foglets",
+		"ImageCreature": "journal_foglets.png",
+		"TypeI": "Creatures",
+		"ID": 70
+	}],
+	"Used": [{
+		"Used": "Foglet Decoction",
+		"ImageUsed": "journal_fogletdecoction.png",
+		"TypeI": "Items",
+		"ID": 113
+	}]
+}, {
+	"ID": 24,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Forktail Mutagen",
+	"Effect": "Sign intensity +5%",
+	"Obtain": "Defeat the Forktail",
+	"Image": "journal_forktailmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "The Dragon of Fyresdal",
+		"ImageCreature": "journal_thedragonoffyresdal.png",
+		"TypeI": "Creatures",
+		"ID": 19
+	}, {
+		"Variations": "Forktail",
+		"ImageCreature": "journal_forktail.png",
+		"TypeI": "Creatures",
+		"ID": 18
+	}],
+	"Used": [{
+		"Used": "Forktail Decoction",
+		"ImageUsed": "journal_forktaildecoction.png",
+		"TypeI": "Items",
+		"ID": 114
+	}]
+}, {
+	"ID": 22,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Grave Hag Mutagen",
+	"Effect": "Vitality +50",
+	"Obtain": "Defeat the Grave Hag",
+	"Image": "journal_gravehagmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Mourntart the Grave hag",
+		"ImageCreature": "journal_mourntartthegravehag.png",
+		"TypeI": "Creatures",
+		"ID": 63
+	}, {
+		"Variations": "Grave hag",
+		"ImageCreature": "journal_gravehag.png",
+		"TypeI": "Creatures",
+		"ID": 65
+	}],
+	"Used": [{
+		"Used": "Grave Hag Decoction",
+		"ImageUsed": "journal_gravehagdecoction.png",
+		"TypeI": "Items",
+		"ID": 115
+	}]
+}, {
+	"ID": 3,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Greater Blue Mutagen",
+	"Effect": "Sign intensity +10%",
+	"Obtain": "Combine three blue mutagens",
+	"Image": "journal_greaterbluemutagen.png",
+	"Category": "Common",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Spriggans",
+		"ImageCreature": "journal_spriggans.png",
+		"TypeI": "Creatures",
+		"ID": 92
+	}, {
+		"Variations": "Shaelmaar",
+		"ImageCreature": "journal_shaelmaar.png",
+		"TypeI": "Creatures",
+		"ID": 95
+	}, {
+		"Variations": "Grottore",
+		"ImageCreature": "journal_grottore.png",
+		"TypeI": "Creatures",
+		"ID": 94
+	}, {
+		"Variations": "The Monster of Tufo",
+		"ImageCreature": "journal_themonsteroftufo.png",
+		"TypeI": "Creatures",
+		"ID": 96
+	}, {
+		"Variations": "The Bruxa of Corvo Bianco",
+		"ImageCreature": "journal_thebruxaofcorvobianco.png",
+		"TypeI": "Creatures",
+		"ID": 128
+	}]
+}, {
+	"ID": 26,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Greater Foglet Mutagen",
+	"Effect": "Attack power +5%",
+	"Obtain": "Defeat the Greater Foglet",
+	"Image": "journal_greaterfogletmutagen.png",
+	"Category": "Common",
+	"BasePrice": 20
+}, {
+	"ID": 6,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Greater Green Mutagen",
+	"Effect": "Vitality +150",
+	"Obtain": "Combine three green mutagens",
+	"Image": "journal_greatergreenmutagen.png",
+	"Category": "Common",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Spotted wights",
+		"ImageCreature": "journal_spottedwights.png",
+		"TypeI": "Creatures",
+		"ID": 72
+	}]
+}, {
+	"ID": 9,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Greater Red Mutagen",
+	"Effect": "Attack power +10%",
+	"Obtain": "Combine three red mutagens",
+	"Image": "journal_greaterredmutagen.png",
+	"Category": "Common",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Giant Centipedes",
+		"ImageCreature": "journal_giantcentipedes.png",
+		"TypeI": "Creatures",
+		"ID": 57
+	}, {
+		"Variations": "Pale Widows",
+		"ImageCreature": "journal_palewidows.png",
+		"TypeI": "Creatures",
+		"ID": 60
+	}, {
+		"Variations": "Slyzard Matriarchs",
+		"ImageCreature": "journal_slyzardmatriarchs.png",
+		"TypeI": "Creatures",
+		"ID": 27
+	}, {
+		"Variations": "Cloud Giant",
+		"ImageCreature": "journal_cloudgiant.png",
+		"TypeI": "Creatures",
+		"ID": 82
+	}, {
+		"Variations": "Golyat",
+		"ImageCreature": "journal_golyat.png",
+		"TypeI": "Creatures",
+		"ID": 81
+	}]
+}, {
+	"ID": 5,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Green Mutagen",
+	"Effect": "Vitality +100",
+	"Obtain": "Combine three lesser green mutagens",
+	"Image": "journal_greenmutagen.png",
+	"Category": "Common",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Archespore",
+		"ImageCreature": "journal_archespore.png",
+		"TypeI": "Creatures",
+		"ID": 16
+	}, {
+		"Variations": "Wight",
+		"ImageCreature": "journal_wight.png",
+		"TypeI": "Creatures",
+		"ID": 73
+	}]
+}, {
+	"ID": 13,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Griffin Mutagen",
+	"Effect": "Vitality +50",
+	"Obtain": "Defeat the Griffin (The Beast Of White Orchard quest)",
+	"Image": "journal_griffinmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Griffin",
+		"ImageCreature": "journal_griffin.png",
+		"TypeI": "Creatures",
+		"ID": 44
+	}],
+	"Used": [{
+		"Used": "Griffin Decoction",
+		"ImageUsed": "journal_griffindecoction.png",
+		"TypeI": "Items",
+		"ID": 116
+	}]
+}, {
+	"ID": 36,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Katakan Mutagen",
+	"Effect": "Attack power +5%",
+	"Obtain": "Defeat the Katakan",
+	"Image": "journal_katakanmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Katakan",
+		"ImageCreature": "journal_katakan.png",
+		"TypeI": "Creatures",
+		"ID": 125
+	}, {
+		"Variations": "Gael the Katakan",
+		"ImageCreature": "journal_gaelthekatakan.png",
+		"TypeI": "Creatures",
+		"ID": 124
+	}],
+	"Used": [{
+		"Used": "Katakan Decoction",
+		"ImageUsed": "journal_katakandecoction.png",
+		"TypeI": "Items",
+		"ID": 117
+	}]
+}, {
+	"ID": 16,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Leshen Mutagen",
+	"Effect": "Sign intensity +5%",
+	"Obtain": "Defeat the Leshen",
+	"Image": "journal_leshenmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Kernun",
+		"ImageCreature": "journal_kernun.png",
+		"TypeI": "Creatures",
+		"ID": 100
+	}, {
+		"Variations": "Leshen",
+		"ImageCreature": "journal_leshen.png",
+		"TypeI": "Creatures",
+		"ID": 87
+	}],
+	"Used": [{
+		"Used": "Leshen Decoction",
+		"ImageUsed": "journal_leshendecoction.png",
+		"TypeI": "Items",
+		"ID": 118
+	}]
+}, {
+	"ID": 1,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Lesser Blue Mutagen",
+	"Effect": "Sign intensity +5%",
+	"Obtain": "Harpies, Nekkers, Endrega workers, Harpies sometimes drop them",
+	"Image": "journal_lesserbluemutagen.png",
+	"Category": "Common",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Nekker",
+		"ImageCreature": "journal_nekker.png",
+		"TypeI": "Creatures",
+		"ID": 78
+	}, {
+		"Variations": "Gael the Katakan",
+		"ImageCreature": "journal_gaelthekatakan.png",
+		"TypeI": "Creatures",
+		"ID": 124
+	}, {
+		"Variations": "Katakan",
+		"ImageCreature": "journal_katakan.png",
+		"TypeI": "Creatures",
+		"ID": 125
+	}, {
+		"Variations": "Barghests",
+		"ImageCreature": "journal_barghests.png",
+		"TypeI": "Creatures",
+		"ID": 112
+	}, {
+		"Variations": "Ekimmara",
+		"ImageCreature": "journal_ekimmara.png",
+		"TypeI": "Creatures",
+		"ID": 118
+	}, {
+		"Variations": "Foglets",
+		"ImageCreature": "journal_foglets.png",
+		"TypeI": "Creatures",
+		"ID": 70
+	}, {
+		"Variations": "Ignis Fatuus the Foglet",
+		"ImageCreature": "journal_ignisfatuusthefoglet.png",
+		"TypeI": "Creatures",
+		"ID": 68
+	}, {
+		"Variations": "Endrega workers",
+		"ImageCreature": "journal_endregaworkers.png",
+		"TypeI": "Creatures",
+		"ID": 53
+	}, {
+		"Variations": "Harpy",
+		"ImageCreature": "journal_harpy.png",
+		"TypeI": "Creatures",
+		"ID": 40
+	}],
+	"Used": [{
+		"Used": "Reliever's Decoction",
+		"ImageUsed": "journal_relieversdecoction.png",
+		"TypeI": "Items",
+		"ID": 122
+	}]
+}, {
+	"ID": 4,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Lesser Green Mutagen",
+	"Effect": "Vitality +50",
+	"Obtain": "Nekkers, Endrega workers, Endrega Warrior, Harpies sometimes drop them",
+	"Image": "journal_lessergreenmutagen.png",
+	"Category": "Common",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Nekker",
+		"ImageCreature": "journal_nekker.png",
+		"TypeI": "Creatures",
+		"ID": 78
+	}, {
+		"Variations": "Endrega workers",
+		"ImageCreature": "journal_endregaworkers.png",
+		"TypeI": "Creatures",
+		"ID": 53
+	}, {
+		"Variations": "Kikimore workers",
+		"ImageCreature": "journal_kikimoreworkers.png",
+		"TypeI": "Creatures",
+		"ID": 59
+	}, {
+		"Variations": "Kikimore warriors",
+		"ImageCreature": "journal_kikimorewarriors.png",
+		"TypeI": "Creatures",
+		"ID": 58
+	}],
+	"Used": [{
+		"Used": "Reliever's Decoction",
+		"ImageUsed": "journal_relieversdecoction.png",
+		"TypeI": "Items",
+		"ID": 122
+	}]
+}, {
+	"ID": 7,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Lesser Red Mutagen",
+	"Effect": "Attack power +5%",
+	"Obtain": "Nekkers, Endrega Warrior sometimes drop them",
+	"Image": "journal_lesserredmutagen.png",
+	"Category": "Common",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "The Apiarian Phantom",
+		"ImageCreature": "journal_theapiarianphantom.png",
+		"TypeI": "Creatures",
+		"ID": 33
+	}, {
+		"Variations": "Fleder",
+		"ImageCreature": "journal_fleder.png",
+		"TypeI": "Creatures",
+		"ID": 123
+	}],
+	"Used": [{
+		"Used": "Alghoul Decoction",
+		"ImageUsed": "journal_alghouldecoction.png",
+		"TypeI": "Items",
+		"ID": 101
+	}, {
+		"Used": "Reliever's Decoction",
+		"ImageUsed": "journal_relieversdecoction.png",
+		"TypeI": "Items",
+		"ID": 122
+	}]
+}, {
+	"ID": 17,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Nekker Warrior Mutagen",
+	"Effect": "Attack power +5%",
+	"Obtain": "Defeat the Nekker Warrior",
+	"Image": "journal_nekkerwarriormutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Hagubman",
+		"ImageCreature": "journal_hagubman.png",
+		"TypeI": "Creatures",
+		"ID": 79
+	}],
+	"Used": [{
+		"Used": "Nekker Warrior Decoction",
+		"ImageUsed": "journal_nekkerwarriordecoction.png",
+		"TypeI": "Items",
+		"ID": 119
+	}]
+}, {
+	"ID": 12,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Nightwraith Mutagen",
+	"Effect": "Vitality +50",
+	"Obtain": "Defeat the Nightwraith",
+	"Image": "journal_nightwraithmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Jenny o' the Woods",
+		"ImageCreature": "journal_jennyothewoods.png",
+		"TypeI": "Creatures",
+		"ID": 103
+	}, {
+		"Variations": "Nightwraith",
+		"ImageCreature": "journal_nightwraith.png",
+		"TypeI": "Creatures",
+		"ID": 106
+	}],
+	"Used": [{
+		"Used": "Nightwraith Decoction",
+		"ImageUsed": "journal_nightwraithdecoction.png",
+		"TypeI": "Items",
+		"ID": 120
+	}]
+}, {
+	"ID": 11,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Noonwraith Mutagen",
+	"Effect": "Vitality +50",
+	"Obtain": "Defeat the Noonwraith (Contract: Devil by The Well)",
+	"Image": "journal_noonwraithmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Devil by the Well",
+		"ImageCreature": "journal_devilbythewell.png",
+		"TypeI": "Creatures",
+		"ID": 102
+	}, {
+		"Variations": "Noonwraith",
+		"ImageCreature": "journal_noonwraith.png",
+		"TypeI": "Creatures",
+		"ID": 109
+	}, {
+		"Variations": "The White Lady",
+		"ImageCreature": "journal_thewhitelady.png",
+		"TypeI": "Creatures",
+		"ID": 117
+	}],
+	"Used": [{
+		"Used": "Noonwraith Decoction",
+		"ImageUsed": "journal_noonwraithdecoction.png",
+		"TypeI": "Items",
+		"ID": 121
+	}]
+}, {
+	"ID": 38,
+	"Name": "Protofleder mutagen",
+	"Effect": "Attack power +5%",
+	"Obtain": "Protofleders",
+	"Image": "journal_protofledermutagen.png",
+	"Category": "Common",
+	"BasePrice": 0,
+	"Creature": [{
+		"Variations": "Protofleders",
+		"ImageCreature": "journal_protofleders.png",
+		"TypeI": "Creatures",
+		"ID": 129
+	}]
+}, {
+	"ID": 8,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Red Mutagen",
+	"Effect": "Attack power +7%",
+	"Obtain": "Combine three lesser red mutagens",
+	"Image": "journal_redmutagen.png",
+	"Category": "Common",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Slyzard",
+		"ImageCreature": "journal_slyzard.png",
+		"TypeI": "Creatures",
+		"ID": 26
+	}, {
+		"Variations": "Garkains",
+		"ImageCreature": "journal_garkains.png",
+		"TypeI": "Creatures",
+		"ID": 119
+	}]
+}, {
+	"ID": 30,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Succubus Mutagen",
+	"Effect": "Attack power +5%",
+	"Obtain": "Defeat the Succubus",
+	"Image": "journal_succubusmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Succubus",
+		"ImageCreature": "journal_succubus.png",
+		"TypeI": "Creatures",
+		"ID": 46
+	}],
+	"Used": [{
+		"Used": "Succubus Decoction",
+		"ImageUsed": "journal_succubusdecoction.png",
+		"TypeI": "Items",
+		"ID": 123
+	}]
+}, {
+	"ID": 29,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Troll Mutagen",
+	"Effect": "Vitality +50",
+	"Obtain": "Defeat the Troll",
+	"Image": "journal_trollmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Ice trolls",
+		"ImageCreature": "journal_icetrolls.png",
+		"TypeI": "Creatures",
+		"ID": 74
+	}, {
+		"Variations": "Wham-a-Wham",
+		"ImageCreature": "journal_wham-a-wham.png",
+		"TypeI": "Creatures",
+		"ID": 80
+	}, {
+		"Variations": "Rock trolls",
+		"ImageCreature": "journal_rocktrolls.png",
+		"TypeI": "Creatures",
+		"ID": 76
+	}]
+}, {
+	"ID": 23,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Water Hag Mutagen",
+	"Effect": "Attack power +5%",
+	"Obtain": "Defeat the Water Hag",
+	"Image": "journal_waterhagmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Water Hag",
+		"ImageCreature": "journal_waterhag.png",
+		"TypeI": "Creatures",
+		"ID": 69
+	}, {
+		"Variations": "Abaya",
+		"ImageCreature": "journal_abaya.png",
+		"TypeI": "Creatures",
+		"ID": 135
+	}],
+	"Used": [{
+		"Used": "Water Hag Decoction",
+		"ImageUsed": "journal_waterhagdecoction.png",
+		"TypeI": "Items",
+		"ID": 125
+	}]
+}, {
+	"ID": 15,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Werewolf Mutagen",
+	"Effect": "Attack power +5%",
+	"Obtain": "Defeat the Werewolf",
+	"Image": "journal_werewolfmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Werewolf",
+		"ImageCreature": "journal_werewolf.png",
+		"TypeI": "Creatures",
+		"ID": 13
+	}, {
+		"Variations": "Ulfhedinn",
+		"ImageCreature": "journal_ulfhedinn.png",
+		"TypeI": "Creatures",
+		"ID": 15
+	}],
+	"Used": [{
+		"Used": "Werewolf Decoction",
+		"ImageUsed": "journal_werewolfdecoction.png",
+		"TypeI": "Items",
+		"ID": 126
+	}]
+}, {
+	"ID": 10,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Wraith Mutagen",
+	"Effect": "Vitality +50",
+	"Obtain": "Wraiths sometimes drop them",
+	"Image": "journal_wraithmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Wraith",
+		"ImageCreature": "journal_wraith.png",
+		"TypeI": "Creatures",
+		"ID": 111
+	}, {
+		"Variations": "Penitent the Specter",
+		"ImageCreature": "journal_penitentthespecter.png",
+		"TypeI": "Creatures",
+		"ID": 104
+	}, {
+		"Variations": "Plague maidens",
+		"ImageCreature": "journal_plaguemaidens.png",
+		"TypeI": "Creatures",
+		"ID": 107
+	}],
+	"Used": [{
+		"Used": "Wraith Decoction",
+		"ImageUsed": "journal_wraithdecoction.png",
+		"TypeI": "Items",
+		"ID": 127
+	}]
+}, {
+	"ID": 27,
+	"Usage": "Can be used to enhance Abilities or create mutagen decoctions.",
+	"Name": "Wyvern Mutagen",
+	"Effect": "Attack power +5%",
+	"Obtain": "Defeat the Wyvern",
+	"Image": "journal_wyvernmutagen.png",
+	"Category": "Relic",
+	"BasePrice": 20,
+	"Creature": [{
+		"Variations": "Wyvern",
+		"ImageCreature": "journal_wyvern.png",
+		"TypeI": "Creatures",
+		"ID": 23
+	}, {
+		"Variations": "Royal wyvern",
+		"ImageCreature": "journal_royalwyvern.png",
+		"TypeI": "Creatures",
+		"ID": 22
+	}],
+	"Used": [{
+		"Used": "Wyvern Decoction",
+		"ImageUsed": "journal_wyverndecoction.png",
+		"TypeI": "Items",
+		"ID": 128
+	}]
+}]
