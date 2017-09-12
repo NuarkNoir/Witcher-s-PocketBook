@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import xyz.nuark.witcherspocketbook.Activities.CreatureViewerActivity;
+import xyz.nuark.witcherspocketbook.Activities.InfoViewerActivity;
 import xyz.nuark.witcherspocketbook.MainActivity;
 import xyz.nuark.witcherspocketbook.Models.Creature;
 import xyz.nuark.witcherspocketbook.R;
@@ -257,8 +257,8 @@ class CELAdapter extends BaseExpandableListAdapter {
             @Override
             public void onClick(View view) {
                 sendedCreature = creature;
-                context.startActivity(new Intent(context, CreatureViewerActivity.class)
-                        //.putExtra("TITLE", creature)
+                context.startActivity(new Intent(context, InfoViewerActivity.class)
+                        .putExtra("WHO", "creature")
                 );
             }
         });

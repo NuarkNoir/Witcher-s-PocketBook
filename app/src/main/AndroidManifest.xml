@@ -18,10 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.CreatureViewerActivity" />
-        <activity android:name=".Activities.IngredientViewerActivity" />
-        <activity android:name=".Activities.ItemViewerActivity" />
-        <activity android:name=".Activities.MutagenViewerActivity"></activity>
+        <activity android:name=".Activities.InfoViewerActivity" />
     </application>
 
 </manifest>

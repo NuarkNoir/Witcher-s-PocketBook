@@ -1,6 +1,7 @@
 package xyz.nuark.witcherspocketbook.Fragments;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -17,10 +18,12 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
+import xyz.nuark.witcherspocketbook.Activities.InfoViewerActivity;
 import xyz.nuark.witcherspocketbook.MainActivity;
 import xyz.nuark.witcherspocketbook.Models.Mutagen;
 import xyz.nuark.witcherspocketbook.R;
 
+import static xyz.nuark.witcherspocketbook.Fragments.MutagensListFragment.sendedMutagen;
 import static xyz.nuark.witcherspocketbook.Utils.getDrawableFromAssets;
 
 /**
@@ -32,6 +35,7 @@ public class MutagensListFragment extends Fragment {
 
     Context context = MainActivity.INSTANCE.getApplication();
     ArrayList<Mutagen> ConsumableItems;
+    public static Mutagen sendedMutagen;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -126,16 +130,27 @@ class MuLAdapter extends BaseAdapter {
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
+        final Mutagen mutagen = data.get(i);
         if (view == null) {
             LayoutInflater mInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             view = mInflater.inflate(R.layout.list_consumableitem, null);
         }
         TextView ingrTitle = view.findViewById(R.id.item_name);
-        ingrTitle.setText(data.get(i).getName());
+        ingrTitle.setText(mutagen.getName());
         TextView ingrEfffect = view.findViewById(R.id.item_effect);
-        ingrEfffect.setText(data.get(i).getEffect());
+        ingrEfffect.setText(mutagen.getEffect());
         ImageView ingrImage = view.findViewById(R.id.item_image);
-        ingrImage.setImageDrawable(getDrawableFromAssets(context, data.get(i).getImage()));
+        ingrImage.setImageDrawable(getDrawableFromAssets(context, mutagen.getImage()));
+
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                sendedMutagen = mutagen;
+                context.startActivity(new Intent(context, InfoViewerActivity.class)
+                        .putExtra("WHO", "mutagen")
+                );
+            }
+        });
         return view;
     }
 

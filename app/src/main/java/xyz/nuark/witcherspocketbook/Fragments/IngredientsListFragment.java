@@ -1,6 +1,7 @@
 package xyz.nuark.witcherspocketbook.Fragments;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -17,10 +18,12 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
+import xyz.nuark.witcherspocketbook.Activities.InfoViewerActivity;
 import xyz.nuark.witcherspocketbook.MainActivity;
 import xyz.nuark.witcherspocketbook.Models.Ingredient;
 import xyz.nuark.witcherspocketbook.R;
 
+import static xyz.nuark.witcherspocketbook.Fragments.IngredientsListFragment.sendedIngredient;
 import static xyz.nuark.witcherspocketbook.Utils.getDrawableFromAssets;
 
 /**
@@ -32,6 +35,7 @@ public class IngredientsListFragment extends Fragment {
 
     Context context = MainActivity.INSTANCE.getApplication();
     ArrayList<Ingredient> Ingredients;
+    public static Ingredient sendedIngredient;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -139,14 +143,25 @@ class InLAdapter extends BaseAdapter {
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
+        final Ingredient ingredient = data.get(i);
         if (view == null) {
             LayoutInflater mInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             view = mInflater.inflate(R.layout.list_item, null);
         }
         TextView ingrTitle = view.findViewById(R.id.item_name);
-        ingrTitle.setText(data.get(i).getName());
+        ingrTitle.setText(ingredient.getName());
         ImageView ingrImage = view.findViewById(R.id.item_image);
-        ingrImage.setImageDrawable(getDrawableFromAssets(context, data.get(i).getImage()));
+        ingrImage.setImageDrawable(getDrawableFromAssets(context, ingredient.getImage()));
+
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                sendedIngredient = ingredient;
+                context.startActivity(new Intent(context, InfoViewerActivity.class)
+                        .putExtra("WHO", "ingredient")
+                );
+            }
+        });
         return view;
     }
 

@@ -1,6 +1,7 @@
 package xyz.nuark.witcherspocketbook.Fragments;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -17,10 +18,12 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
+import xyz.nuark.witcherspocketbook.Activities.InfoViewerActivity;
 import xyz.nuark.witcherspocketbook.MainActivity;
 import xyz.nuark.witcherspocketbook.Models.Item;
 import xyz.nuark.witcherspocketbook.R;
 
+import static xyz.nuark.witcherspocketbook.Fragments.ItemsListFragment.sendedItem;
 import static xyz.nuark.witcherspocketbook.Utils.getDrawableFromAssets;
 
 /**
@@ -32,6 +35,7 @@ public class ItemsListFragment extends Fragment {
 
     Context context = MainActivity.INSTANCE.getApplication();
     ArrayList<Item> ConsumableItems;
+    public static Item sendedItem;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -116,16 +120,27 @@ class ItLAdapter extends BaseAdapter {
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
+        final Item item = data.get(i);
         if (view == null) {
             LayoutInflater mInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             view = mInflater.inflate(R.layout.list_consumableitem, null);
         }
         TextView ingrTitle = view.findViewById(R.id.item_name);
-        ingrTitle.setText(data.get(i).getName());
+        ingrTitle.setText(item.getName());
         TextView ingrEfffect = view.findViewById(R.id.item_effect);
-        ingrEfffect.setText(data.get(i).getEffect());
+        ingrEfffect.setText(item.getEffect());
         ImageView ingrImage = view.findViewById(R.id.item_image);
-        ingrImage.setImageDrawable(getDrawableFromAssets(context, data.get(i).getImage()));
+        ingrImage.setImageDrawable(getDrawableFromAssets(context, item.getImage()));
+
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                sendedItem = item;
+                context.startActivity(new Intent(context, InfoViewerActivity.class)
+                        .putExtra("WHO", "item")
+                );
+            }
+        });
         return view;
     }
 
